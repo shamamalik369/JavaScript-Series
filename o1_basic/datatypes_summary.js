@@ -34,3 +34,38 @@ const myfunction = function(){
     console.log('Hello World!');
     
 };
+
+
+
+
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive) , Heap(Non-Primitive)
+
+
+let name='Shama';
+let newname=name;
+newname='Shama Malik'
+
+console.log(name);
+
+console.log(newname);
+
+let userone={
+    email:'abc@gmail.com',
+    upi:'abc@ybl'
+
+}
+
+let usertwo=userone;
+
+usertwo.email='Shama@gmail.com';
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
